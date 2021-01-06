@@ -1,0 +1,27 @@
+
+import random
+#Se usa la función random para generar una lista extensa de valores aleatorios 
+
+lista_calificaciones = []
+i = 0
+suma = 0
+promedio = 0
+alumnos_promedio_superior = 0
+
+for i in range(0,100,1):
+    n = random.randint(1,10) #Se genera una lista de valores aleatorios entre 1 y 10
+    lista_calificaciones.append(n) #Se agregan las calificaciones al arreglo
+    suma+=n #Se suman todas las calificaciones
+    
+promedio = suma / 100
+#Se saca la media de las notas
+
+for x in lista_calificaciones:
+    if x > promedio:
+        alumnos_promedio_superior+=1
+
+print("El promedio general del grupo es: ",promedio)
+print("El número de estudiantes superiores al promedio es: ",alumnos_promedio_superior)
+
+
+
