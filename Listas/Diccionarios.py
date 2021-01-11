@@ -1,5 +1,5 @@
 #Diccionarios
-'''tipo de colección donde los elementos tambien se guardaan desordenados con 2 elementos
+'''tipo de colección donde los elementos tambien se guardan desordenados con 2 elementos
 Por posicion la clave y el valor. No pueden haber claves duplicadas.'''
 
 

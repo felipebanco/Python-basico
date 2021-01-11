@@ -1,8 +1,8 @@
 #Listas o Colecciones
 '''
- Dato estructurado flexible en el que se pueden almacenar todo tipo de datos
- desde booleanos, caracteres, float, int, cadenas ect.
- Los valores de una lista se alcenan entre [] y se separan con comas.
+Dato estructurado flexible en el que se pueden almacenar todo tipo de datos
+desde booleanos, caracteres, float, int, cadenas ect.
+Los valores de una lista se alcenan entre [] y se separan con comas.
 '''
 
 lista = ["Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado"] #Dias laborales de la semana

@@ -14,7 +14,7 @@ arroba = e_mail.count("@")
 if("@"!=1 or e_mail.rfind("@")==(len(e_mail)-1) or e_mail.find("@")==0):
     print("El e-mail ingresado es incorrecto")
     #Explicación: rfind busca que el @ no este al final de la lista, find busca que no esté al principio
-                  #len busca que el @ este ingresado.
+    #len busca que el @ este ingresado.
 else:
     print("El e-mail ingresado es correcto")
 

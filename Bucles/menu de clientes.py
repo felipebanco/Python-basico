@@ -2,11 +2,11 @@
 '''
 Crear un programa que tenga una lista de clientes, cada cliente tiene su nombre, apellido y DNI.
 El programa tendrá el siguiente menú de opciones:
- -1 Agregar un nuevo cliente.
- -2 Mostrar todos los clientes.
- -3 Mostrar cliente por DNI.
- -4 Eliminar cliente.
- -5 Salir.
+-1 Agregar un nuevo cliente.
+-2 Mostrar todos los clientes.
+-3 Mostrar cliente por DNI.
+-4 Eliminar cliente.
+-5 Salir.
 '''
 
 def agregar_cliente(clientes,nombre,apellido,dni):

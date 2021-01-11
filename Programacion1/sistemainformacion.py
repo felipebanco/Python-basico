@@ -3,4 +3,4 @@
 
 
 for x in range(1,11,1):
-    print("Sistemas de informacion")
+   print("Sistemas de informacion")
