@@ -8,6 +8,14 @@ def multiplicar(x,y):
 def dividir(x,y):
     print("El resultado de la division es",x/y)
 
+def suma1(a,b, resultado):
+    a=int(input("ingresa: "))
+    b= int(input("ingresa: "))
+    resultado= a+b
+    return resultado
+print(suma1('a','b','resultado'))
+
+
 #Llamado de Funciones
 sumar(x=13,y=4)
 restar(x=45,y=15)
