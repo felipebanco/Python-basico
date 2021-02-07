@@ -15,7 +15,7 @@ class Vehiculos():
         self.acelerar = True
     def estado(self):
         print("Marca: ",self.marca, "\nModelo: ",self.modelo, "\nEn Marcha: ",self.enMarcha
-              ,"\nAcelerando: ",self.acelerar, "\nFrenando: ",self.frenar)
+            ,"\nAcelerando: ",self.acelerar, "\nFrenando: ",self.frenar)
 
 class Camioneta(Vehiculos):
     def carga(self,cargar):
@@ -31,7 +31,7 @@ class Moto(Vehiculos): #Herencia: Recibe todos los atributos, métodos y constru
         self.hcaballito = "Voy haciendo caballito."
     def estado(self): #Métdo que se sobreescribe en el método de la clase padre
         print("Marca: ",self.marca, "\nModelo: ",self.modelo, "\nEn Marcha: ",self.enMarcha
-              ,"\nAcelerando: ",self.acelerar, "\nFrenando: ",self.frenar, "\nAcrobacia: ",self.hcaballito)
+            ,"\nAcelerando: ",self.acelerar, "\nFrenando: ",self.frenar, "\nAcrobacia: ",self.hcaballito)
 
 class VehiculosElectricos(Vehiculos): #Clase independiente.
     def __init__(self,marca,modelo):
@@ -41,9 +41,9 @@ class VehiculosElectricos(Vehiculos): #Clase independiente.
         self.cargando = True
 
 class BicicletaElectrica(VehiculosElectricos,Vehiculos): #Herencia múltiple, hereda métodos y atributos de dos clases
-    def estado(self):                         #Se da preferencia a la primera clase a la que se le asigna la herencia.
+    def estado(self):#Se da preferencia a la primera clase a la que se le asigna la herencia.
         print("Marca: ", self.marca, "\nModelo: ", self.modelo, "\nEn Marcha: ", self.enMarcha
-          , "\nAcelerando: ", self.acelerar, "\nFrenando: ", self.frenar)
+        , "\nAcelerando: ", self.acelerar, "\nFrenando: ", self.frenar)
 
 
 print("Primer objeto: Mi Moto")

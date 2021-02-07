@@ -37,21 +37,21 @@ while True:
         print("2) NO")
         opcion = int(input("INGRESE EL NUMERO DE OPCION: "))
         if opcion == 1:
-             print('''\t
-             3). DEPOSITAR DINERO A SU CUENTA.
-             4). RETIRO DE DINERO DE SU CUENTA.
-             ''')
-             opcion_principal = int(input("INGRESE EL NÚMERO DE OPERACIÓN QUE DESEA REALIZAR: "))
-             if opcion_principal == 3:
-                 deposito_de_caja = float(input("\nINGRESE EL MONTO A DEPOSITAR: "))
-                 saldo_inicial += deposito_de_caja
-                 print(f"\nSU SALDO ACTUAL ES DE ${saldo_inicial}")
-             elif opcion == 4:
-                 retiro_de_caja = int(input("INGRESE EL MONTO QUE DESEA RETIRAR: "))
-                 if retiro_de_caja <= saldo_inicial:
-                     saldo_inicial -= retiro_de_caja
-                     print(f"SU SALDO ACTUAL ES DE ${saldo_inicial}")
-             else:
+            print('''\t
+            3). DEPOSITAR DINERO A SU CUENTA.
+            4). RETIRO DE DINERO DE SU CUENTA.
+            ''')
+            opcion_principal = int(input("INGRESE EL NÚMERO DE OPERACIÓN QUE DESEA REALIZAR: "))
+            if opcion_principal == 3:
+                deposito_de_caja = float(input("\nINGRESE EL MONTO A DEPOSITAR: "))
+                saldo_inicial += deposito_de_caja
+                print(f"\nSU SALDO ACTUAL ES DE ${saldo_inicial}")
+            elif opcion == 4:
+                retiro_de_caja = int(input("INGRESE EL MONTO QUE DESEA RETIRAR: "))
+                if retiro_de_caja <= saldo_inicial:
+                    saldo_inicial -= retiro_de_caja
+                    print(f"SU SALDO ACTUAL ES DE ${saldo_inicial}")
+            else:
                 print("EL NUMERO INGRESADO NO COINCIDE CON EL NUMERO DE OPERACIONES DISPONIBLES")
                 break
     elif opcion_principal == 2:
@@ -66,10 +66,10 @@ while True:
             print("2) NO")
             opcion = int(input("INGRESE EL NUMERO DE OPCION: "))
             if opcion == 1:
-                    print('''\t.
-                           1). DEPOSITAR DINERO A SU CUENTA.
-                           2). RETIRO DE DINERO DE SU CUENTA.
-                           ''')
+                print('''\t.
+                1). DEPOSITAR DINERO A SU CUENTA.
+                2). RETIRO DE DINERO DE SU CUENTA.
+                ''')
                     opcion_principal = int(input("INGRESE EL NÚMERO DE OPERACIÓN QUE DESEA REALIZAR: "))
             elif opcion == 2:
                     print("GRACIAS POR UTILIZAR SU CAJERO AUTOMATICO")
