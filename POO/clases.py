@@ -1,3 +1,7 @@
+'''
+Las clases almacenan objetos que a su vez estos mismo poseen un estado, atributos y comportamientos.
+Se definen con la palabra reservada class y el nombre en mayúscula.
+'''
 class Auto():
     largoChasis = 250 #Atributos
     anchoChasis = 120
@@ -22,7 +26,4 @@ miAuto.arrancar()
 print(miAuto.largoChasis)
 #Se muestran por pantalla las propiedades solicitadas
 print(miAuto.estado())
-
-'''
-    Primero se verifica el método arrancar y luego el condicional al comprobar que enMarcha es verdadero se devuelve el mensaje.
-'''
+#Primero se verifica el método arrancar y luego el condicional al comprobar que enMarcha es verdadero se devuelve el mensaje.

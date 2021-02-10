@@ -31,6 +31,7 @@ def generar_arreglo(arreglo):
 devolver_arreglo = generar_arreglo(arreglo)
 print(devolver_arreglo)
 
+
 arreglo_inverso = []
 def mostrar_inverso(arreglo_inverso):
     for item in reversed(arreglo):
