@@ -17,6 +17,6 @@ elif numero1%2!=0 and numero2%2==0:
      print(f"{numero1} es numero impar.")
      print(f"{numero2} es numero par.")
 else:
-    print(f"{numero1} y {numero2} son numeros impares.")
+     print(f"{numero1} y {numero2} son numeros impares.")
 
 print("Fin del programa.")

@@ -1,8 +1,8 @@
 #Ejercicio 4
 
 '''Construir una calculadora que pueda realizar las 4 operaciones basicas.
- El usuario debe especificar la operación con el primer caracter del nombre
- de la operacion'''
+El usuario debe especificar la operación con el primer caracter del nombre
+de la operacion'''
 
 letra=input("Digite la primera letra de la operacion que desea realizar: ")
 suma=0
